@@ -1,0 +1,57 @@
+.content-card {
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 20px;
+    box-shadow: var(--shadow);
+    margin-top: 20px;
+}
+
+.table-responsive {
+    width: 100%;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 12px;
+    text-align: left;
+}
+
+th, td {
+    padding: 12px 14px;
+    border-bottom: 1px solid var(--border);
+}
+
+th {
+    background: #f8faf8;
+    color: var(--text);
+    font-weight: 600;
+}
+
+tr:hover td {
+    background: #fafcfb;
+}
+
+.badge {
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.badge.pending { background: #fff4e5; color: #d18a2f; }
+.badge.disetujui { background: #eaf5ed; color: #23804a; }
+.badge.selesai { background: #eaf2ff; color: #477bd0; }
+.badge.ditolak { background: #fff0f0; color: #c34d3e; }
+
+.page-footer {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 13px;
+    color: var(--muted);
+    border-top: 1px solid var(--border);
+    padding-top: 20px;
+}
